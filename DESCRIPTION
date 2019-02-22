@@ -1,0 +1,41 @@
+Package: sneakers
+Title: Obtain and Forecast Sneaker Market Data
+Version: 0.0.0.9000
+Authors@R: c(
+    person(given = "Ziwei",
+           family = "Liu",
+           role = c("aut", "cre"),
+           email = "ziweil2@illinois.edu"),
+    person(given = "Zepeng",
+           family = "Xiao",
+           role = c("aut"),
+           email = "zepengx2@illinois.edu"),
+    person(given = "Yuquan",
+           family = "Zheng",
+           role = c("aut"),
+           email = "yzheng58@illinois.edu"),
+    person(given = "James",
+           family = "Balamuta",
+           role = c("ctb"),
+           email = "balamut2@illinois.edu"))
+Description: Using either a pre-built cache or retrieving data in real-time,
+    the package allows for sneaker aficionados to have an overview of the current
+    sneaker market. 
+License: GPL (>= 2)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
+Imports: 
+    shiny,
+    rvest,
+    XML,
+    RSelenium,
+    ggplot2,
+    forecast,
+    sqldf,
+    stringr,
+    tidyr,
+    xml2,
+    magrittr
+Depends: 
+    httr
